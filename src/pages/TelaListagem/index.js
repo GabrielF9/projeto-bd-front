@@ -1,10 +1,19 @@
 import React from 'react';
-import CabecalhoTelaListagem from '../../components/CabecalhoTelaListagem';
-import CorpoTelaListagem from '../../components/CorpoTelaListagem';
+import CabecalhoVoltar from '../../components/CabecalhoVoltar';
+
+import './styles.css';
+
+const CorpoTelaListagem = () => (
+  <div className="corpoTelaListagem">
+    <div id="telaListagem">
+      <h1>Aqui temos planetas</h1>
+    </div>
+  </div>
+);
 
 const TelaListagem = () => (
   <div className="telaListagem">
-    <CabecalhoTelaListagem />
+    <CabecalhoVoltar />
     <CorpoTelaListagem />
   </div>
 );
