@@ -14,7 +14,7 @@ const CorpoTelaLogin = () => {
         if (rgx.test(email) && pswd.length >= 4) {
             console.log(rgx.test(email));
 
-            axios.post('http://localhost:3000/login', {
+            axios.post('https://projeto-bd-back.herokuapp.com/login', {
                 email: email,
                 password: pswd
             })
