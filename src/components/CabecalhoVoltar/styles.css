@@ -1,4 +1,4 @@
-.cabecalhoTelaListagem {
+.cabecalhoVoltar {
   width: 100%;
   height: 60px;
   background: #8b008b;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.cabecalhoTelaListagem a {
+.cabecalhoVoltar a {
   color: #fff;
   text-decoration: none;
   font-size: 17px;
